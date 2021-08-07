@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 const DBA = process.env.DATABASE
 
-mongoose.connect("mongodb://127.0.0.1:27017/spark",{
+mongoose.connect("mongodb://127.0.0.1:27017/<db_name>",{
     useNewUrlParser: true,
     useCreateIndex:true,
     useUnifiedTopology:true,
